@@ -12,7 +12,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-          TextField("Enter your name name", text: $name)
+          TextField("Enter your name", text: $name)
           Text("Hello \(name)")
         }
     }
